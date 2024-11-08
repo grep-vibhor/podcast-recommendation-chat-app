@@ -20,7 +20,7 @@ async function createEmbedding(input) {
   return embeddingResponse.data[0].embedding;
 }
 
-// Query Supabase and return a semantically matching text chunk
+// Query Chroma and return a semantically matching text chunk
 async function findNearestMatch(embedding) {
   
   const collection = await chroma.getOrCreateCollection({
