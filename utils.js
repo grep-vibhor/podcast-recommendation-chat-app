@@ -14,6 +14,6 @@ export const openai = new OpenAI({
 
 /** ChromaDB client */
 export const chroma = new ChromaClient();
-export const COLLECTION_NAME = "rag_collection"
+export const COLLECTION_NAME = "podcast_rag_collection"
 
 

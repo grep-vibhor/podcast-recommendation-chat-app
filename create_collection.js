@@ -1,5 +1,5 @@
-import {chroma} from './utils.js';
+import {chroma, COLLECTION_NAME} from './utils.js';
 
 const collection = await chroma.createCollection({
-    name: "my_collection",
+    name: COLLECTION_NAME,
   });
